@@ -20,4 +20,8 @@ chkconfig mysqld on
 service mysqld start
 mysql -u root -e "show databases;"
 
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/jawwadq/vagrant/master/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/jawwadq/vagrant/master/files/info.php
+
 service httpd restart
