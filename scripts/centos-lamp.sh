@@ -2,7 +2,7 @@
 
 yum update -y --exclude=kernel
 
-yum install -y nano git unzip screen
+yum install -y nano git unzip screen wget
 
 yum install -y httpd httpd-devel httpd-tools
 chkconfig --add httpd
